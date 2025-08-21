@@ -43,6 +43,48 @@ nav ul li a {
 nav ul li a:hover {
   color: #ff9800;
 }
+.hero {
+  background-color: Soft Peach (#f8c9a0);  /* dark navy background */
+  color: #ff5722;
+  padding: 60px 10%;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+  min-width: 250px;
+}
+
+.hero-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
 
 /* ===== Banner Section ===== */
 .banner {
@@ -55,12 +97,17 @@ nav ul li a:hover {
   background:white;
   color: rgb(8, 8, 8);
   margin-top: 50px;
+  transition: transform 0.4s ease-in-out;
+}
+.banner:hover {
+  transform: scale(1.05);  /* zoom in */
 }
 
 .banner img {
   width: 250px;
   border-radius: 10%;
   margin: 1rem;
+  
 }
 
 .banner-text {
