@@ -1,4 +1,4 @@
-/* ===== Reset and Base Styles ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   color: #151515;
 }
 
-/* ===== Navigation ===== */
 header {
  background: linear-gradient(to right, hsl(322, 31%, 66%), #ff5722);
   color: #fff;
@@ -44,7 +43,7 @@ nav ul li a:hover {
   color: #ff9800;
 }
 .hero {
-  background-color: Soft Peach (#f8c9a0);  /* dark navy background */
+  background-color: Soft Peach (#f8c9a0);  
   color: #ff5722;
   padding: 60px 10%;
 }
@@ -53,7 +52,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; /* makes it responsive */
+  flex-wrap: wrap; 
 }
 
 .hero-text {
@@ -86,7 +85,7 @@ nav ul li a:hover {
 }
 
 
-/* ===== Banner Section ===== */
+
 .banner {
   display: flex;
   flex-wrap: wrap;
@@ -100,7 +99,7 @@ nav ul li a:hover {
   transition: transform 0.4s ease-in-out;
 }
 .banner:hover {
-  transform: scale(1.05);  /* zoom in */
+  transform: scale(1.05);  
 }
 
 .banner img {
@@ -124,7 +123,7 @@ nav ul li a:hover {
   margin-top: 0.5rem;
 }
 
-/* ===== Sections ===== */
+
 section {
   padding: 2rem;
   max-width: 1100px;
@@ -152,7 +151,7 @@ section {
   transition: transform 0.3s;
 }
 
-/* ===== Certifications Section ===== */
+
 .certifications {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -190,7 +189,7 @@ section {
   transform: translateY(-5px);
 }
 
-/* ===== Contact Page ===== */
+
 form {
   background: white;
   padding: 2rem;
@@ -219,7 +218,6 @@ form button:hover {
   background: #e64a19;
 }
 
-/* ===== Footer ===== */
 footer {
    background: linear-gradient(to right, hsl(322, 31%, 66%), #ff5722);
   color: #fff;
@@ -228,7 +226,7 @@ footer {
   margin-top: 2rem;
 }
 
-/* ===== Responsive ===== */
+
 @media (max-width: 768px) {
   .banner {
     flex-direction: column;
